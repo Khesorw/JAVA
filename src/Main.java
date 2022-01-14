@@ -7,6 +7,21 @@ import java.awt.GridLayout;
 
 
 public class Main {
+    
+   /**
+   *This method converts string to integer 
+   *@author Hasib
+   *@param numberString: String
+   *
+   */
+   public static Integer toInteger(String numberString){
+
+        Integer getNum = Integer.parseInt(numberString);
+        
+
+        return getNum;
+    }
+    
     public static void main(String[] args) {
         
 
