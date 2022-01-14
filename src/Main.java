@@ -19,6 +19,7 @@ public class Main {
         frame.setDefaultCloseOperation(3);
         frame.setTitle("WASSSUP FROM JAVA");
         frame.setVisible(true);
+        
 
     }
 }
