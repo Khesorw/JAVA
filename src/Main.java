@@ -18,8 +18,11 @@ public class Main {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(3);
         frame.setTitle("WASSSUP FROM JAVA");
+        frame.setSize(300,400);
         frame.setVisible(true);
-        
+
+        System.out.println("hello world");
+        System.out.println('c');
 
     }
 }
