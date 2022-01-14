@@ -1,5 +1,6 @@
 import java.util.function.Function;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 
@@ -19,10 +20,15 @@ public class Main {
         frame.setDefaultCloseOperation(3);
         frame.setTitle("WASSSUP FROM JAVA");
         frame.setSize(300,400);
+        frame.setLayout(new GridLayout());
+        frame.setIconImage(new ImageIcon("ant.jpg").getImage());
+        
         frame.setVisible(true);
 
         System.out.println("hello world");
         System.out.println('c');
+    
+        
 
     }
 }
