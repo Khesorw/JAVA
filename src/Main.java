@@ -1,6 +1,8 @@
 import java.util.function.Function;
 
-import javax.sound.sampled.SourceDataLine;
+import javax.swing.JFrame;
+
+
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +15,10 @@ public class Main {
 
         String number= intToString.apply(234324);
 
-        
+        JFrame frame = new JFrame();
+        frame.setDefaultCloseOperation(3);
+        frame.setTitle("WASSSUP FROM JAVA");
+        frame.setVisible(true);
 
     }
 }
